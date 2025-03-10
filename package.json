@@ -1,0 +1,50 @@
+{
+  "name": "rms-vue3-confirm-dialog",
+  "version": "1.0.0",
+  "description": "A VueJs(Vue3) component library for creating confirm dialog.",
+  "author": "Ramesh Bhatta(mail.rmes@gmail.com)",
+  "repository": "",
+  "private": false,
+  "type": "module",
+  "main": "dist/rms-vue3-confirm-dialog.umd.js",
+  "module": "dist/rms-vue3-confirm-dialog.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint:oxlint": "oxlint . --fix -D correctness --ignore-path .gitignore",
+    "lint:eslint": "eslint . --fix",
+    "lint": "run-s lint:*",
+    "format": "prettier --write src/"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.13",
+    "bulma": "^1.0.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/eslint-config-prettier": "^10.2.0",
+    "eslint": "^9.20.1",
+    "eslint-plugin-oxlint": "^0.15.10",
+    "eslint-plugin-vue": "^9.32.0",
+    "npm-run-all2": "^7.0.2",
+    "oxlint": "^0.15.10",
+    "prettier": "^3.5.1",
+    "vite": "^6.1.1",
+    "vite-plugin-vue-devtools": "^7.7.2"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "component",
+    "dialog",
+    "confirm",
+    "Vue.js"
+  ],
+  "license": "MIT",
+  "dependencies": {}
+}
